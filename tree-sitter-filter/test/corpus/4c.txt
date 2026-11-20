@@ -1,0 +1,20 @@
+==================
+and lebih kuat dari or
+==================
+
+a = 1 or b = 2 and c = 3
+
+---
+
+(query
+  (or_expression
+    (comparison
+      (identifier)
+      (number))
+    (and_expression
+      (comparison
+        (identifier)
+        (number))
+      (comparison
+        (identifier)
+        (number)))))
