@@ -1,0 +1,16 @@
+{
+  "grammars": [
+    {
+      "name": "filter",
+      "camelcase": "Filter",
+      "scope": "source.filter",
+      "path": ".",
+      "file-types": ["filter"]
+    }
+  ],
+  "metadata": {
+    "version": "0.1.0",
+    "license": "MIT",
+    "description": "Mini DSL filter grammar"
+  }
+}

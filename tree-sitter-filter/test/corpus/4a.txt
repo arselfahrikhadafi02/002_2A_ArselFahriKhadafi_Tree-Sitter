@@ -1,0 +1,12 @@
+==================
+operator dan number
+==================
+
+priority >= 2
+
+---
+
+(query
+  (comparison
+    (identifier)
+    (number)))
