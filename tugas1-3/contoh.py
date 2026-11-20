@@ -3,6 +3,7 @@ from pathlib import Path
 
 
 def tambah(a, b):
+    """Menambahkan dua angka."""
     return a + b
 
 
