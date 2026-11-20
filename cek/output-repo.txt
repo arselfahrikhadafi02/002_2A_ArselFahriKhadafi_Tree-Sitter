@@ -1,0 +1,4 @@
+﻿cek\uji\fungsi_panjang.py:1: fungsi 'fungsi_panjang' panjang (32 baris)
+cek\uji\sintaks_rusak.py:2: ERROR
+cek\uji\todo.py:1: # TODO: contoh komentar yang harus dilaporkan
+cek\uji\todo.py:2: # FIXME: contoh masalah lain
