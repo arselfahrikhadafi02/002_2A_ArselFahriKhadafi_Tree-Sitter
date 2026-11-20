@@ -5,7 +5,8 @@
       "camelcase": "Filter",
       "scope": "source.filter",
       "path": ".",
-      "file-types": ["filter"]
+      "file-types": ["filter"],
+      "highlights": "queries/highlights.scm"
     }
   ],
   "metadata": {
