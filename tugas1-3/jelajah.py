@@ -1,0 +1,28 @@
+import sys
+import tree_sitter_python as tspython
+from tree_sitter import Language, Parser
+
+
+parser = Parser(Language(tspython.language()))
+
+
+def jelajah(node, kedalaman=0, field=None):
+    baris, kolom = node.start_point
+    label = f"{field}: " if field else ""
+    print("  " * kedalaman + f"{label}{node.type} [{baris + 1}:{kolom}]")
+
+    for i, child in enumerate(node.children):
+        if not child.is_named:
+            continue
+        field_name = node.field_name_for_child(i)
+        jelajah(child, kedalaman + 1, field_name)
+
+
+if len(sys.argv) != 2:
+    print(f"Pemakaian: py jelajah.py <file.py>")
+    raise SystemExit(1)
+
+with open(sys.argv[1], "rb") as f:
+    tree = parser.parse(f.read())
+
+jelajah(tree.root_node)
