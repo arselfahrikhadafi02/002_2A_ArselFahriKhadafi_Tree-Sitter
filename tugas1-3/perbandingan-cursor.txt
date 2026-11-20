@@ -1,0 +1,26 @@
+Perbandingan Pengayaan Tugas 2: Rekursif dan TreeCursor
+
+File uji:
+- tugas1-3/t2-contoh100.py
+- Jumlah baris: 108
+
+Perintah uji:
+1. py tugas1-3/jelajah.py tugas1-3/t2-contoh100.py
+2. py tugas1-3/jelajah_cursor.py tugas1-3/t2-contoh100.py
+
+Hasil:
+- Kedua perintah mencetak semua node bernama.
+- Kedua perintah mencetak indentasi yang sama.
+- Kedua perintah mencetak baris, kolom, dan nama field yang sama.
+- File output:
+  - output-jelajah.txt
+  - output-jelajah-cursor.txt
+- Pemeriksaan byte-by-byte pada kedua file output menghasilkan tidak ada perbedaan.
+- SHA-256 output rekursif:
+  9D8ACF0284BE892C0039E99BE28F390A21DDEF2815A0FB363B2D35393510955F
+- SHA-256 output TreeCursor:
+  9D8ACF0284BE892C0039E99BE28F390A21DDEF2815A0FB363B2D35393510955F
+
+Kesimpulan:
+Versi rekursif dan versi TreeCursor menghasilkan output identik pada file uji
+minimal 100 baris.
