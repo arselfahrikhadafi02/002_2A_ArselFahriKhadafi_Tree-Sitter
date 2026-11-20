@@ -8,6 +8,6 @@ not archived = true
 
 (query
   (not_expression
-    (comparison
-      (identifier)
-      (boolean))))
+    operand: (comparison
+      field: (identifier)
+      value: (boolean))))

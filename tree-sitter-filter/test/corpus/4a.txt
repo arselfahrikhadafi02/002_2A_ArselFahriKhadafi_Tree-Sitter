@@ -8,5 +8,5 @@ priority >= 2
 
 (query
   (comparison
-    (identifier)
-    (number)))
+    field: (identifier)
+    value: (number)))

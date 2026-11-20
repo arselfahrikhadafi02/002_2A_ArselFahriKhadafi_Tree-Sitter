@@ -1,0 +1,16 @@
+==================
+field pada expression
+==================
+
+status = "open" and priority >= 2
+
+---
+
+(query
+  (and_expression
+    left: (comparison
+      field: (identifier)
+      value: (string))
+    right: (comparison
+      field: (identifier)
+      value: (number))))

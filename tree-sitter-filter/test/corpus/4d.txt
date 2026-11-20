@@ -8,14 +8,14 @@ parenthesized expression
 
 (query
   (and_expression
-    (parenthesized
-      (or_expression
-        (comparison
-          (identifier)
-          (number))
-        (comparison
-          (identifier)
-          (number))))
-    (comparison
-      (identifier)
-      (number))))
+    left: (parenthesized
+      expression: (or_expression
+        left: (comparison
+          field: (identifier)
+          value: (number))
+        right: (comparison
+          field: (identifier)
+          value: (number))))
+    right: (comparison
+      field: (identifier)
+      value: (number))))
