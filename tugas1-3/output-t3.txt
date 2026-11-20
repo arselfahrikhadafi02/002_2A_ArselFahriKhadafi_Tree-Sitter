@@ -1,0 +1,32 @@
+=== semua identifier ===
+@id  baris 1: os
+@id  baris 2: Path
+@id  baris 2: pathlib
+@id  baris 5: a
+@id  baris 5: b
+@id  baris 7: a
+@id  baris 7: b
+@id  baris 10: nama
+@id  baris 5: tambah
+@id  baris 10: sapa
+@id  baris 11: nama
+@id  baris 14: tambah
+@id  baris 14: print
+@id  baris 11: print
+=== nama fungsi ===
+@nama  baris 5: tambah
+@nama  baris 10: sapa
+=== nama dan jumlah parameter ===
+tambah 2
+sapa 1
+=== pemanggilan print ===
+@fn  baris 11: print
+@fn  baris 14: print
+@args  baris 11: (nama)
+@args  baris 14: (tambah(1, 2))
+=== import dan from import ===
+@modul  baris 1: os
+@modul  baris 2: pathlib
+@nama  baris 2: Path
+=== docstring ===
+@docstring  baris 6: """Menambahkan dua angka."""
